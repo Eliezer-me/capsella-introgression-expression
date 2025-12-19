@@ -1,7 +1,7 @@
 # Capsella RNA-seq Expression Pipeline — Status & Notes
 
 Status (as of 2025-12-19)
-- Data generation & preprocessing: ✅ Completed
+- Data generation & preprocessing: ✅ Completed.
 - Reference genome prep: ✅ Completed
 - Alignment to reference: ✅ Completed
 - Gene-level counting: ✅ Completed
