@@ -1,6 +1,4 @@
 # Capsella bursa‑pastoris — Self‑synteny & homeolog analysis
-
-
 This study shows the synteny analysis performed on the Capsella bursa‑pastoris genome (an allopolyploid). The analysis focuses on detecting orthologs, paralogs, and homeologs and on testing whether chromosomes in the two subgenomes retain expected homeologous relationships (1 ↔ 9, 2 ↔ 10, …, 8 ↔ 16).
 
 Capsella bursa‑pastoris is an allopolyploid formed from two diploid parental lineages, producing two subgenomes commonly referred to as A and B. Here we treat:
@@ -194,7 +192,10 @@ blocks_AB %>%
   arrange(desc(total_len))
 ```
 
-(Adjust column names as needed to match your `syntenicBlock_coordinates.csv`.)
+Note:(Adjust column names as needed to match your `syntenicBlock_coordinates.csv`.)
+<img width="1259" height="778" alt="image" src="https://github.com/user-attachments/assets/ceeaae7d-4950-4c0b-be43-4242cac48a8e" /> 
+<img width="1259" height="778" alt="image" src="https://github.com/user-attachments/assets/b6af650f-4640-4db2-a6a5-1e686b09d8c2" />
+
 
 ---
 
