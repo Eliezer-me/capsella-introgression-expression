@@ -208,12 +208,3 @@ Given the allopolyploid origin:
 - Block‑level summaries should show larger/denser blocks linking homeologous pairs compared to other cross‑group combinations.
 
 ---
-
-## Recommended next steps
-
-1. Commit this Markdown file to your repo (suggested filename `synteny-analysis.md`).
-2. Run the R script on the full BLAST/synHits files on the cluster to generate high‑resolution figures (save as PNG/PDF).
-3. Add the generated figures to the repo (e.g., `figures/circos.png`, `figures/chr_heatmap.png`) and reference them in this Markdown.
-4. Summarize any deviations from expectation (e.g., translocations, fusions, weak homeology) and add a discussion section with figures.
-5. Optional: add a small table of chr1 ↔ chr9 counts using the counted results (from `syn_AB %>% count(chr1, chr2)`).
-
