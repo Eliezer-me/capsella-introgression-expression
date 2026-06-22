@@ -1,4 +1,4 @@
-# Capsella RNA-seq Expression Pipeline — Status & Notes
+# Capsella RNA-seq Expression Pipeline — Notes
 
 Status (as of 2025-12-19)
 - Data generation & preprocessing: ✅ Completed.
