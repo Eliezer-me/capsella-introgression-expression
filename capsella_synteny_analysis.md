@@ -51,9 +51,9 @@ library(scales)
 library(RColorBrewer)
 library(ggplot2)
 
-# ============================================================
+
 # Load BLAST data
-# ============================================================
+
 path <- "~/Downloads"
 
 blast <- read.table(
@@ -62,10 +62,8 @@ blast <- read.table(
   sep = "\t",
   stringsAsFactors = FALSE
 )
-
-# ============================================================
 # Clean data (remove scaffolds / contigs)
-# ============================================================
+
 blast <- blast %>%
   filter(
     !grepl("contig|scaffold", chr1, ignore.case = TRUE),
@@ -99,9 +97,7 @@ chroms <- chroms[order(chrom_nums)]
 blast$chr1 <- factor(blast$chr1, levels = chroms)
 blast$chr2 <- factor(blast$chr2, levels = chroms)
 
-# ============================================================
-# ---------------- CIRCOS PLOT -----------------------------
-# ============================================================
+#CIRCOS PLOT 
 # Subsample for visibility
 set.seed(123)
 blast_small <- blast %>%
@@ -139,9 +135,7 @@ for (i in seq_len(nrow(blast_small))) {
   )
 }
 
-# ============================================================
-# -------------- CHROMOSOME-CHROMOSOME HEATMAP -------------
-# ============================================================
+# CHROMOSOME-CHROMOSOME HEATMAP 
 chr_matrix <- blast %>%
   count(chr1, chr2)
 
